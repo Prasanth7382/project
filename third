@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@android:color/white">
+
+        <!-- Illustration -->
+        <ImageView
+            android:id="@+id/ivIllustration"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/illustration_shopping"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore the app"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec mauris quis turpis cursus interdum. Ut consequat turpis eget est tincidunt, sit amet euismod justo dignissim."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Let's Start Button -->
+        <Button
+            android:id="@+id/btnLetsStart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Let's Start"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
